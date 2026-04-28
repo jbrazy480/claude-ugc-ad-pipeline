@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Build artifacts in user projects
+**/build/overlays/
+**/raw.mp4
+**/final.mp4
+**/transcript.json
+**/verify/*.jpg
+
+# Keep example verify frames
+!examples/**/verify/*.jpg

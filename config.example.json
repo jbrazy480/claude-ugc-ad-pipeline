@@ -1,0 +1,73 @@
+{
+  "raw_video": "raw.mp4",
+  "transcript": "transcript.json",
+  "output": "final.mp4",
+
+  "speed": 1.15,
+  "fps": 30,
+  "width": 1080,
+  "height": 1920,
+  "tail_seconds": 4.0,
+
+  "captions": {
+    "font_path": "/System/Library/Fonts/HelveticaNeue.ttc",
+    "font_index": 1,
+    "size": 90,
+    "outline_px": 6,
+    "y_position": 380,
+
+    "default_color": [255, 255, 255],
+    "pain_color": [255, 90, 0],
+    "money_color": [0, 255, 133],
+
+    "pain_words": [
+      "LOST", "LOSING", "MIND",
+      "30", "DAYS", "11PM",
+      "YOUTUBE", "TUTORIAL", "REPLACE",
+      "$1,500", "1,500",
+      "ONE", "LAYER", "FOUR",
+      "BLEEDING"
+    ],
+    "money_words": [
+      "REVENUE", "ENGINE",
+      "$100K", "100K", "$3", "MILLION",
+      "AT&T", "VERIZON", "T-MOBILE",
+      "365",
+      "$12K", "12,000", "$12,000",
+      "CASH", "UPFRONT",
+      "$200", "VENMO",
+      "CLOSED"
+    ]
+  },
+
+  "motion_graphics": [
+    {
+      "type": "list_chip",
+      "id": "carriers",
+      "start_t": 51.0,
+      "duration": 5.0,
+      "position": "top-right",
+      "header": "DIRECT CARRIER ROUTES",
+      "items": ["AT&T", "VERIZON", "T-MOBILE"]
+    },
+    {
+      "type": "money_stamp",
+      "id": "cash_proof",
+      "start_t": 67.5,
+      "duration": 2.5,
+      "header": "CLOSED LAST WEEK",
+      "amount": "$12,000",
+      "subtitle": "CASH UPFRONT"
+    },
+    {
+      "type": "cta_endcard",
+      "id": "cta",
+      "start_t": 76.0,
+      "duration": 9.5,
+      "main": "BOOK THE CALL",
+      "sub": "$200 IF WE WASTE YOUR TIME",
+      "micro": "TAP BELOW",
+      "show_arrow": true
+    }
+  ]
+}

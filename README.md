@@ -1,5 +1,7 @@
 # UGC Ad Pipeline
 
+![Hero — pain caption, credibility chip, money stamp, CTA endcard](examples/ai-ugc-meta-ad/hero.jpg)
+
 > Drop a raw AI UGC clip in a folder, say *"edit this for Meta"*, get a converting paid-social ad out.
 
 A Claude Code skill that turns one AI UGC talking-head clip into a Meta-Ads-ready vertical video. Word-synced captions with color-coded highlights on pain/money words, 2–4 motion-graphic beats at the right moments, CTA endcard, all driven by one config file.
